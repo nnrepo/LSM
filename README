@@ -1,0 +1,16 @@
+###############################################
+# Implementation of a liquid state machine using
+# the Nemo simulator.
+###############################################
+
+INSTALLATION:
+
+Use cmake-gui on Ubuntu to set Boost, Eigen3 and Nemo directories.
+Generate with Unic MakeFiles then
+make
+
+then run 
+
+./main
+
+An LSM will be trained. The results will be stacked into a best.m matlab file (can be run on matlab to load the data for visualization).
