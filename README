@@ -1,7 +1,10 @@
-###############################################
-# Implementation of a liquid state machine using
-# the Nemo simulator.
-###############################################
+#########################################################################
+# Implementation of a liquid state machine using the Nemo simulator
+# 
+# Implementation details for the liqud are given in:
+# MAASS, W. "Real-time Computing Without Stable States: A New Framework 
+# for Neural Computation Based  on perturbations." Neural Computations 14 (2002): 2531-2560.
+#########################################################################
 
 INSTALLATION:
 
