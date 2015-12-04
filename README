@@ -7,7 +7,6 @@
 #########################################################################
 
 INSTALLATION:
-
 Use cmake-gui on Ubuntu to set Boost, Eigen3 and Nemo directories.
 Generate with Unic MakeFiles then
 make
@@ -17,3 +16,5 @@ then run
 ./main
 
 An LSM will be trained. The results will be stacked into a best.m matlab file (can be run on matlab to load the data for visualization).
+
+Tested on: Ubuntu 14.04 boost_1_55_0 Eigen3 and NeMo-0.7.2
