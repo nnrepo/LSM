@@ -1,20 +1,20 @@
-#########################################################################
-# Implementation of a liquid state machine using the Nemo simulator
-# 
-# Implementation details for the liqud are given in:
-# MAASS, W. "Real-time Computing Without Stable States: A New Framework 
-# for Neural Computation Based  on perturbations." Neural Computations 14 (2002): 2531-2560.
-#########################################################################
+# __Liquid State Machine__
 
-INSTALLATION:
-Use cmake-gui on Ubuntu to set the NeMo-0.7.2, boost_1_55_0 and Eigen3 directories.
-Generate with Unix MakeFiles then
-make
+### _Simulation and optimization of a liquid state machine_
+Implementation details for the liquid are given in: Maass, W. *"Real-time Computing Without Stable States: A New Framework for Neural Computation Based on perturbations."* Neural Computations 14, 2002: 2531-2560.
 
-then run 
+## Installation instructions:
+- Use CMake to set the directories of the required libraries. 
+- Generate the project and build it
+- running main will simulate an LSM, and evolve, it to optimize its performance on a given problem.
 
-./main
+## Required libraries:
+1. NeMo-0.7.2
+2. boost_1_55_0
+3. Eigen3
+4. Gaul-0.1849
 
-This will train an LSM and stack the results into a best.m matlab file (for fast loading the results into matlab).
+## Tested on:
+* Ubuntu 14.04
 
-Tested on: Ubuntu 14.04 boost_1_55_0 Eigen3 and NeMo-0.7.2
+### Computational Vision and Robotics Laboratory (CVRL), Foundation for Research and Technology (FORTH), Hellas
